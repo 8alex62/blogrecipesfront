@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import RecipeCard from "../components/CardRecipes";
 import axios from "axios";
+import { Box } from "@mui/material";
 
 function Home() {
   const [recipes, setRecipes] = useState([]);
@@ -16,7 +17,12 @@ function Home() {
   }, []);
 
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
+    <Box sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                minHeight: "100vh",
+            }}>
       {recipes.map((recipe, index) => (
         <RecipeCard
           key={index}
@@ -25,7 +31,7 @@ function Home() {
           picture={recipe.picture}
         />
       ))}
-    </div>
+    </Box>
   );
 }
 export default Home

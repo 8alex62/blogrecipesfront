@@ -7,11 +7,12 @@ import CardActionArea from '@mui/material/CardActionArea';
 
 export default function RecipeCard({ title, description, picture }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ MaxWidth: 100 }}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
+          width="100"
           image={picture}
           alt={title}
         />
