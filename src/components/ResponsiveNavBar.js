@@ -13,8 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Recipes', 'Categories'];
-const settings = [ 'Account','My Recipes','Logout'];
+const pages = ['Recipes'];
+const settings = ['Logout'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -112,15 +112,12 @@ function ResponsiveAppBar() {
             LOGO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
+            <Button
+  onClick={() => window.location.href = "/Recipes"}
+  sx={{ my: 2, color: 'white', display: 'block' }}
+>
+  Recipes
+</Button>
           </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
@@ -145,10 +142,21 @@ function ResponsiveAppBar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography sx={{ textAlign: 'center' }}>{setting}</Typography>
-                </MenuItem>
-              ))}
+  <MenuItem
+    key={setting}
+    onClick={() => {
+      if (setting === 'Logout') {
+        localStorage.removeItem('userId');
+        localStorage.removeItem('token');
+        window.location.href = '/'; 
+      } else {
+        handleCloseUserMenu();
+      }
+    }}
+  >
+    <Typography sx={{ textAlign: 'center' }}>{setting}</Typography>
+  </MenuItem>
+))}
             </Menu>
           </Box>
         </Toolbar>

@@ -30,8 +30,14 @@ function LoginForm(){
             password,
             });
             localStorage.setItem("token", response.data.token);
+<<<<<<< Updated upstream
             localStorage.setItem("userId", response.data.member._id);
             navigate("recipes");
+=======
+            localStorage.setItem("userId", response.data.member._id)
+            
+            navigate("/recipes");
+>>>>>>> Stashed changes
             console.log("Login success:", response.data);
         } catch (err) {
             setError("Invalid credentials");

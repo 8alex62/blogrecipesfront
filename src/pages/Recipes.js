@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import RecipeCard from "../components/CardRecipes";
 import axios from "axios";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
@@ -17,19 +17,25 @@ function Recipes() {
   }, []);
 
   return (
-    <Box sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                minHeight: "100vh",
-            }}>
-      {recipes.map((recipe, index) => (
-        <RecipeCard
-          key={index}
-          recipe={recipe}
-        />
-      ))}
+    <Box sx={{ p: 4 }}>
+      <Typography variant="h4" mb={3}>Toutes les recettes</Typography>
+      <Box
+        sx={{
+          display: "grid",
+          gridTemplateColumns: {
+            xs: "1fr",
+            sm: "1fr 1fr",
+            md: "1fr 1fr 1fr"
+          },
+          gap: 3,
+        }}
+      >
+        {recipes.map((recipe, index) => (
+          <RecipeCard key={index} recipe={recipe} />
+        ))}
+      </Box>
     </Box>
   );
 }
-export default Recipes
+
+export default Recipes;
