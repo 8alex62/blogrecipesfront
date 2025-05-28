@@ -23,7 +23,7 @@ function IngredientForm() {
 
       console.log('Ingrédient ajouté :', response.data);
       alert("Ingrédient ajouté avec succès !");
-      setName(''); // Réinitialiser le champ
+      setName('');
     } catch (error) {
       console.error("Erreur lors de l'ajout de l'ingrédient :", error);
       alert("Une erreur est survenue.");

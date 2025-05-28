@@ -30,8 +30,8 @@ function LoginForm(){
             password,
             });
             localStorage.setItem("token", response.data.token);
-            
-            navigate("/recipes");
+            localStorage.setItem("userId", response.data.member._id);
+            navigate("recipes");
             console.log("Login success:", response.data);
         } catch (err) {
             setError("Invalid credentials");
@@ -43,7 +43,6 @@ function LoginForm(){
         <FormControl component="form" onSubmit={handleLogin}>
             <FormControl sx={{ m : 1, boxShadow: 4, borderRadius: 4}}>
                 <OutlinedInput
-                    id="email-outlined"
                     type="email"
                     required={true}
                     sx={{ borderRadius: 4, background: "white"}}

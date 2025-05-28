@@ -32,13 +32,16 @@ function RegisterForm() {
                 throw new Error("Passwords do not match");
             } 
 
-                await axios.post("http://localhost:8090/Member/register", {
+            const response = await axios.post("http://localhost:8090/Member/register", {
                     firstName,
                     lastName,
                     email,
                     password,
                 });
-                navigate("/recipes");
+                
+                localStorage.setItem("token", response.data.token);
+                localStorage.setItem("userId", response.data.member._id);
+                navigate("recipes");
 
            
 
