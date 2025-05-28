@@ -3,11 +3,11 @@ import RecipeCard from "../components/CardRecipes";
 import axios from "axios";
 import { Box } from "@mui/material";
 
-function Home() {
+function Recipes() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    axios("http://localhost:8090/Recipe/")
+    axios.get("http://localhost:8090/Recipe/")
       .then((res) => {
         setRecipes(res.data.data);
       })
@@ -26,12 +26,10 @@ function Home() {
       {recipes.map((recipe, index) => (
         <RecipeCard
           key={index}
-          title={recipe.title}
-          description={recipe.description}
-          picture={recipe.picture}
+          recipe={recipe}
         />
       ))}
     </Box>
   );
 }
-export default Home
+export default Recipes
