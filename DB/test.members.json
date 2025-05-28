@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6810d825de3f34dae05bfe3c"
+  },
+  "firstName": "matteo",
+  "lastName": "marinho",
+  "email": "someemail2@gmail.com",
+  "password": "$2b$10$NwZOz5gGam9PsFNevXhHW.UMc7HJv47UOBnxUbeeWGCFGLMcmxDnq",
+  "registrationDate": {
+    "$date": "2025-04-29T13:45:51.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fd57207f7509d709ef12"
+  },
+  "firstName": "Matteo",
+  "lastName": "Marinho",
+  "email": "matteo.marinho@outlook.fr",
+  "password": "$2b$10$zo7mAVeLLtVi4zVYpxFvy.OWknLfSK8jTWtZJjQJqBuiTQ3rQCpHW",
+  "registrationDate": {
+    "$date": "2025-05-28T12:10:22.378Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "6819f7341600019499750891"
+  },
+  "unit": 12,
+  "quantity": 12,
+  "Recipe": {
+    "$oid": "6819ca4038a5e161bab3b758"
+  },
+  "Ingredient": {
+    "$oid": "6819dcadbf0bbc67504d7304"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a596"
+  },
+  "unit": "unité",
+  "quantity": 2,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836faddbbee572275af14ad"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a598"
+  },
+  "unit": "cl",
+  "quantity": 10,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fb17bbee572275af14bb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a59a"
+  },
+  "unit": "pincée",
+  "quantity": 1,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fb1cbbee572275af14bd"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a5a0"
+  },
+  "unit": "unité",
+  "quantity": 1,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fae6bbee572275af14af"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a5a2"
+  },
+  "unit": "unité",
+  "quantity": 1,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836faf7bbee572275af14b3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a5a4"
+  },
+  "unit": "unité",
+  "quantity": 3,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fafdbbee572275af14b5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a5a6"
+  },
+  "unit": "unité",
+  "quantity": 1,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fb06bbee572275af14b7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a5a8"
+  },
+  "unit": "gousses",
+  "quantity": 2,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fb0bbbee572275af14b9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a59e"
+  },
+  "unit": "unité",
+  "quantity": 1,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836faf0bbee572275af14b1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a59c"
+  },
+  "unit": "pincée",
+  "quantity": 2,
+  "Recipe": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "Ingredient": {
+    "$oid": "6836fb21bbee572275af14bf"
+  },
+  "__v": 0
+}]

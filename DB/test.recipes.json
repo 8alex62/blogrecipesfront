@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "68341a7bfe04b2ccf596ed85"
+  },
+  "title": "Gâteau ",
+  "description": "Description du gateau",
+  "picture": "https://i0.wp.com/www.lesdelicesdekarinette.fr/wp-content/uploads/2023/02/tutti-frutti.webp?w=768&ssl=1",
+  "creationDate": {
+    "$date": "2025-05-26T07:36:29.280Z"
+  },
+  "Category": {
+    "$oid": "6810cc68f0dbad0d64b6126a"
+  },
+  "Member": {
+    "$oid": "6810d825de3f34dae05bfe3c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683705496f228ddc02df1a70"
+  },
+  "title": "Ratatouille",
+  "description": "Lavez et détaillez les courgettes, l'aubergine, le poivron vert et le rouge, en cubes de taille moyenne. Coupez les tomates en quartiers et émincez l'oignon.\n\nDans une poêle, versez un peu d'huile d'olive et faites-y revenir les uns après les autres les différents légumes pendant 5 minutes pour qu'ils colorent. Commencez par les poivrons, puis les aubergines, les courgettes et enfin les oignons et les tomates que vous cuirez ensemble.\n\nAprès avoir fait cuire les légumes, ajoutez-les tous aux tomates et aux oignons, baissez le feu puis mélangez. Ajoutez un beau bouquet garni de thym, de romarin et de laurier, salez, poivrez, puis couvrez pour laisser mijoter 40 minutes en remuant régulièrement.\n\nÀ environ 10 minutes du terme de la cuisson, ajoutez les deux belles gousses d'ail écrasées puis couvrez de nouveau. N'hésitez pas à goûter et à assaisonner de nouveau selon vos goûts.\n\nPour finir\nDégustez avec des grillades ou un barbecue.",
+  "picture": "https://img-3.journaldesfemmes.fr/WEKRzN_qg42JRWNnBhlptivgU6w=/750x500/1a97a904e4994d828686495776981469/ccmcms-jdf/39899388.jpg",
+  "creationDate": {
+    "$date": "2025-05-28T12:38:22.468Z"
+  },
+  "Category": {
+    "$oid": "6836fc09a4051fb55b02a8f8"
+  },
+  "Member": {
+    "$oid": "6836fd57207f7509d709ef12"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683705726f228ddc02df1a8e"
+  },
+  "title": "test",
+  "description": "test",
+  "picture": "https://cdn.futura-sciences.com/sources/images/dossier/773/01-intro-773.jpg",
+  "creationDate": {
+    "$date": "2025-05-28T12:38:22.468Z"
+  },
+  "Category": {
+    "$oid": "6836fc09a4051fb55b02a8f8"
+  },
+  "Member": {
+    "$oid": "6836fd57207f7509d709ef12"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683705916f228ddc02df1a90"
+  },
+  "title": "test",
+  "description": "test",
+  "picture": "https://cdn.futura-sciences.com/sources/images/dossier/773/01-intro-773.jpg",
+  "creationDate": {
+    "$date": "2025-05-28T12:38:22.468Z"
+  },
+  "Category": {
+    "$oid": "6836fc09a4051fb55b02a8f8"
+  },
+  "Member": {
+    "$oid": "6836fd57207f7509d709ef12"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683707918de7fe80f156a594"
+  },
+  "title": "Ratatouille",
+  "description": "\nLavez et détaillez les courgettes, l'aubergine, le poivron vert et le rouge, en cubes de taille moyenne. Coupez les tomates en quartiers et émincez l'oignon.\n\nDans une poêle, versez un peu d'huile d'olive et faites-y revenir les uns après les autres les différents légumes pendant 5 minutes pour qu'ils colorent. Commencez par les poivrons, puis les aubergines, les courgettes et enfin les oignons et les tomates que vous cuirez ensemble.\n\nAprès avoir fait cuire les légumes, ajoutez-les tous aux tomates et aux oignons, baissez le feu puis mélangez. Ajoutez un beau bouquet garni de thym, de romarin et de laurier, salez, poivrez, puis couvrez pour laisser mijoter 40 minutes en remuant régulièrement.\n\nÀ environ 10 minutes du terme de la cuisson, ajoutez les deux belles gousses d'ail écrasées puis couvrez de nouveau. N'hésitez pas à goûter et à assaisonner de nouveau selon vos goûts.\n\nPour finir\nDégustez avec des grillades ou un barbecue.\n",
+  "picture": "https://img-3.journaldesfemmes.fr/WEKRzN_qg42JRWNnBhlptivgU6w=/750x500/1a97a904e4994d828686495776981469/ccmcms-jdf/39899388.jpg",
+  "creationDate": {
+    "$date": "2025-05-28T12:50:58.539Z"
+  },
+  "Category": {
+    "$oid": "6836fc09a4051fb55b02a8f8"
+  },
+  "Member": {
+    "$oid": "6836fd57207f7509d709ef12"
+  },
+  "__v": 0
+}]

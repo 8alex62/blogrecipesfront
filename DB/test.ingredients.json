@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "6834715e09f867474e006291"
+  },
+  "name": "carotte",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836faddbbee572275af14ad"
+  },
+  "name": "Courgettes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fae6bbee572275af14af"
+  },
+  "name": "Aubergines",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836faf0bbee572275af14b1"
+  },
+  "name": "poivron vert",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836faf7bbee572275af14b3"
+  },
+  "name": "poivron rouge",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fafdbbee572275af14b5"
+  },
+  "name": "tomates",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fb06bbee572275af14b7"
+  },
+  "name": "oignon",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fb0bbbee572275af14b9"
+  },
+  "name": "ail",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fb17bbee572275af14bb"
+  },
+  "name": "huile d'olive",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fb1cbbee572275af14bd"
+  },
+  "name": "sel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6836fb21bbee572275af14bf"
+  },
+  "name": "poivre",
+  "__v": 0
+}]
