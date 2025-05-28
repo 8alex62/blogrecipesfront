@@ -4,11 +4,14 @@ import axios from 'axios';
 import {useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom';
 import CreateComments from '../components/CreateComments';
+import CommentCard from '../components/CommentCard';
 
 function RecipeDetails(){
     const { id } = useParams();
     const [member, setMember] = useState();
     const [recipe, setRecipe] = useState();
+    const [comments, setComments] =  useState([]);
+
     useEffect(() => {
         axios.get(`http://localhost:8090/Recipe/${id}`)
             .then((res) => {
@@ -18,6 +21,14 @@ function RecipeDetails(){
             .catch((error) => {
                 console.error("Error fetching recipe details:", error);
             });
+
+         axios.get(`http://localhost:8090/Comment/${id}`)
+            .then((res) => {
+                setComments(res.data.data);
+            })
+            .catch((error) => {
+                console.error("Error fetching comment details:", error);
+            });    
     }, [id]);
 
     return(
@@ -58,13 +69,15 @@ function RecipeDetails(){
                     Comments
                 </Typography>
 
-                <CreateComments recipeId = {id} /> 
+                <CreateComments Recipe = {recipe}/> 
+
+                {comments.map((comment, index) => (
+                        <CommentCard
+                          key={index}
+                          comment={comment}
+                        />
+                      ))}
             </Card>
-
-            <Box>
-
-
-            </Box>
         </Box>
     );
 }
