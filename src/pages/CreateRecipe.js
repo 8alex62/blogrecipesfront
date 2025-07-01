@@ -72,8 +72,7 @@ function MonFormulaire() {
         Category: formData.categorieId,
         Member: formData.membreId
       };
-<<<<<<< Updated upstream
-
+      
       const recipeRes = await axios.post("http://localhost:8090/Recipe/", recipePayload);
       const recipeId = recipeRes.data.data._id;
 
@@ -100,35 +99,6 @@ function MonFormulaire() {
         ingredientsUsed: []
       });
 
-=======
-      console.log("Payload envoyé à /Recipe :", recipePayload);
-      const recipeRes = await axios.post("http://localhost:8090/Recipe/", recipePayload);
-      const recipeId = recipeRes.data.data._id;
-
-      const ingredientPosts = formData.ingredientsUsed.map((item) => ({
-        quantity: Number(item.quantity),
-        unit: item.unit,
-        Recipe: recipeId,
-        Ingredient: item.ingredientId
-      }));
-
-      await Promise.all(
-        ingredientPosts.map((data) =>
-          axios.post("http://localhost:8090/IngredientRecipe/", data)
-        )
-      );
-
-      alert("Recette et ingrédients ajoutés avec succès !");
-      setFormData({
-        titre: '',
-        description: '',
-        urlImage: '',
-        categorieId: '',
-        membreId: localStorage.getItem("userId") || '',
-        ingredientsUsed: []
-      });
-
->>>>>>> Stashed changes
     } catch (err) {
       console.error("Erreur lors de la soumission :", err);
       alert("Erreur lors de la création de la recette.");
